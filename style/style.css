@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+.btn-container{
+    text-align: center;
+    margin: 16px 0px;
+}
+.btn{
+    padding: 21px 32px 21px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+}
+#hero{
+    height: 652px;
+    background-image:linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .hero-container{
+    width: 726px;
+}
+#hero .hero-container .sub-title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+}
+#hero .hero-container .hero-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#hero .hero-container .description{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#card-box{
+    width: 937px;
+    margin: 100px auto;
+}
+#card-box .sub-title{
+    color: rgb(16, 16, 16);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+.card .image-box{
+    width: 250px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    padding: 7px 16px 8px 16px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+.card .card-pragraph{
+    color: rgb(16, 16, 16);
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#about-us .about-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-title{
+    width: 681px;
+    display: flex;
+    flex-direction: column;
+}
+.about-image img{
+    width: 681px;
+}
+.about-title .about-ti{
+    margin-top:100px;
+    margin-left:100px ;
+    margin-right: 100px;
+    margin-bottom: 12px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.about-title .about-title-main{
+    margin-top: 12px;
+    margin-left:100px ;
+    margin-right: 100px;
+    margin-bottom: 24px;
+    color: rgb(16, 16, 16);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+.about-title .about-follow-us{
+    padding: 16px 8px 16px 8px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+#card-box-2{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+#footer{
+    background-image: linear-gradient(180deg, rgba(243, 237, 237, 0.87) -19.5%, rgba(238, 211, 211, 0.87) 100%), 
+    url("../assets/social-bg.png"), 
+    linear-gradient(to bottom, white, white);;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+.about-title .about-follow-us2{
+    padding: 16px 8px 16px 8px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    margin-bottom: 117px;
+}
